@@ -1,0 +1,121 @@
+1.
+signed 8 bit has range of 0 - 255
+
+unsigned 8 bit has range of -128 - 127
+
+
+2. 12 bit register 2's compliment representation of -50
+
+50/2 = 25 R0
+25/2 = 12 R1
+12/2 = 6 R0
+6/2 = 3 R0
+3/2 = 1 R1
+1/2 = 0 R1
+bin 50 = 110010
+
+-12 bit 50 to binary = 100000110010
+1's compliment = 111111001101
+2's              +          1
+
+2's compliment = 111111001110
+
+
+3.(a) 210 dec to bin, hex, oct
+
+210 dec to bin 
+
+210/2 = 105 R0
+105/2 = 52 R1
+52/2 = 26 R0
+26/2 = 13 R0
+13/2 = 6 R1
+6/2 = 3 R0
+3/2 = 1 R1
+1/2 = 0 R1
+
+210 bin = 11010010
+
+
+210 dec to hex
+
+11010010 is binary of 210
+
+1101 = 13 = D
+0010 = 2
+
+hex of 210 = D2(16)
+
+
+210 dec to oct 
+
+210 bin = 11010010
+
+010 = 2
+010 = 2
+011 = 3
+
+210 dec to oct = 322
+
+
+3.(b) 12A hex to bin, dec, oct
+
+12A hex to bin 
+
+1 = 1
+2 = 0010
+A = 1010
+
+12A = 100101010
+
+
+12A hex to dec
+
+12A = (1*256) + (2*16) + (A*1) = 256 + 32 + 10 = 298
+
+
+12A hex  to oct
+
+12A to bin = 100101010
+
+010 = 2
+101 = 5
+100 = 4
+
+12A to oct = 452
+
+
+701 octal to bin, dec, hex
+
+701 oct to bin
+
+7 = 111
+0 = 000
+1 = 001
+
+701 oct to bin = 111000001
+
+
+701 oct to dec = (7*8^2) + (0 * 8^1) +(1 * 8^0) = 448 + 0 + 1 = 449
+
+701 oct to hex 
+
+701 bin = 1 1100 0001 
+
+0001 = 1
+1100 = C
+0001 = 1
+
+701 oct to hex = 1C1
+
+4. A = 01010100, B = 01101101, A+B, B-A, A*B, A&B, A|B
+
+A+B = 11000001
+
+B-A = 11001
+
+A*B = 10001111000100
+
+A&B = 01000100
+
+A|B = 01111101

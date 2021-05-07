@@ -1,0 +1,12 @@
+small.txt has 67 number of words
+small.txt has 5 number of lines
+small.txt has 8 distinct words that start with a vowel
+it {Word Length: 2 }: 1
+ever. {Word Length: 5 }: 1
+england; {Word Length: 8 }: 1
+in {Word Length: 2 }: 2
+on {Word Length: 2 }: 2
+and {Word Length: 3 }: 3
+of {Word Length: 2 }: 4
+a {Word Length: 1 }: 8
+small.txt has 5 distinct words with length 2

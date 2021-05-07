@@ -1,0 +1,43 @@
+3 (a) I. Boolean. False
+
+II. Double. 37.8
+
+III. Int. 268
+
+IIII. Int. 624
+
+
+(b) I. output is:
+				9.78
+				9
+				9
+				99.78
+				99
+
+	real output:
+				9.78
+				9
+				9
+				99.78
+				18.78
+
+Read the last print statement wrong should be 18.78. I thought it was newStr + newNum
+
+II. output:
+				007
+
+	real output:
+				007
+
+
+III. output:
+				Bee ByeBye
+
+	real output:
+				Error exception
+
+You get an error becuase String.replace() should be s.replace()
+
+C. 
+Strings are objects and not primitive data types, and cannot be changed.
+Alternatives would be StringBuilder or StringBuffer.
